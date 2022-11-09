@@ -1,0 +1,32 @@
+#include<stdio.h>
+/**
+ * int main(){
+ *      printf("%d", sum(5, 10));
+ * }
+ *                       (return)
+ * 
+ * 
+ * (parameters)
+ * 
+ * 
+ * int sum(int x, int y){
+ *      return x + y;
+ * }
+ * 
+ * 함수 -> 매개변수, return
+ * 
+*/
+
+//main 함수 위에 선언되면 int get_num(void); 위에 선언할 필요 x
+int get_num(void);
+
+int main (void){
+    printf("값 : %d", get_num())
+}
+
+int get_num(void){
+    int num;
+    printf("number :");
+    scanf("%d", &num);
+    return num;
+}
