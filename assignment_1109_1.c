@@ -1,11 +1,10 @@
 #include<stdio.h>
 // 과제 : 숫자 사용자 입력, 자리수 제한 없음
-// 과제 : 자리수 제한 없는 상황에서도 똑같이 동작
+
 /**
  * 숫자 : 5자리 
- * 
- * 
 */
+
 int main (void){
     int num;
     int total  = 0;
