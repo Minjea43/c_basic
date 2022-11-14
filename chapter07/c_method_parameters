@@ -21,7 +21,7 @@
 int get_num(void);
 
 int main (void){
-    printf("°ª : %d", get_num())
+    printf("°ª : %d", get_num());
 }
 
 int get_num(void){
