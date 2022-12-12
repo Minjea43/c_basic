@@ -33,8 +33,17 @@ int main() {
     if(menu_num < 1 || menu_num > 4){
         puts("Warling: 1~4의 번호를 입력하세요");
     }
+    menu_save = 
+    price_save =
     
     printf("입력 : %d\n", menu_num);
+    
+    int menu_len = sizeof(menu_save)/sizeof(menu_save[i]);
+    int menu_len = sizeof(price_save)/sizeof(price_save[i]);
+
+    for(int i = 0; i<menu_len; i++){
+        printf("주문[%d]")
+    }
 }
 
 void print_main_menu(void){
@@ -42,4 +51,17 @@ void print_main_menu(void){
     printf("햄버거 세트");
     printf("햄버거 메뉴");
     printf("사이드 메뉴");
+}
+
+//주문한 메뉴와 가격 출력
+void print_order(void){
+    int menu_len = sizeof(menu_save)/sizeof(menu_save[i]);
+    int menu_len = sizeof(price_save)/sizeof(price_save[i]);
+
+    for(int i = 0; i<menu_len; i++){
+        printf("주문[%d] : %s\n", i , menu_save[1]);
+    }
+    for(int i = 0; i<price_len; i++){
+        printf("주문[%d] : %s\n", i , price_save[1]);
+    }
 }
